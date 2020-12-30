@@ -1,1 +1,82 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
+nav {
+  margin-top: -3px;
+}
+
+#navdrop *{
+  color: white !important;
+}
+
+#logo{
+  margin-left: 30vw;
+  width: 33px;
+  fill: white;
+  margin-bottom:
+}
+
+#main-photo{
+  background-image: url('../img/iop2.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 722px;
+  background-color: grey;
+}
+
+#main-photo hr{
+  border-width: 10px;
+  background-color: white;
+}
+
+hr{
+  border-width: 10px;
+}
+
+#center-text{
+  background-color: transparent;
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  font-family: 'Major Mono Display', monospace;
+}
+
+#sect2{
+  margin-top: 50px;
+}
+
+@media (min-width: 576px) {
+  #logo{
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo{
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo{
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #logo{
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #logo{
+    margin-left: 150px;
+  }
+  #navdrop{
+    margin-right: 170px;
+    font-size: 0.9em;
+  }
+}
