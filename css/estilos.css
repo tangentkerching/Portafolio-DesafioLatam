@@ -34,16 +34,31 @@ white-space:nowrap;
 #sect2 hr{
   border-width: 3px;
   width: 10%;
+  background-color: #21343D;
+}
+
+#sect3 hr{
+  border-width: 3px;
+  width: 10%;
+  background-color: #21343D;
 }
 
 .fondo-oscuro{
   background-color: #21343D;
 }
 
+#hombresentado{
+  width: 150px;
+}
+
+#llave{
+  width: 80px;
+}
+
 #center-text{
   background-color: transparent;
   position: relative;
-  bottom: -60%;
+  bottom: -40%;
   overflow: none;
   width: 100%;
   font-family: 'Major Mono Display', monospace;
@@ -59,17 +74,26 @@ white-space:nowrap;
   #logo{
     margin-left: 0px;
   }
+  #center-text{
+    bottom: -50%;
+  }
 }
 
 @media (min-width: 768px) {
   #logo{
     margin-left: 150px;
   }
+  #center-text{
+    bottom: -20%;
+  }
 }
 
 @media (min-width: 992px) {
   #logo{
     margin-left: 150px;
+  }
+  #center-text{
+    bottom: -50%;
   }
 }
 
@@ -79,6 +103,9 @@ white-space:nowrap;
   }
   #main-photo{
     height: 722px;
+  }
+  #center-text{
+    bottom: -50%;
   }
 }
 
@@ -92,5 +119,8 @@ white-space:nowrap;
   }
   #main-photo{
     height: 722px;
+  }
+  #center-text{
+    bottom: -60%;
   }
 }
