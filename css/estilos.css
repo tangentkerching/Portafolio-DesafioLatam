@@ -31,6 +31,16 @@ white-space:nowrap;
   background-color: #50EEFD;
 }
 
+#sect2{
+  margin-top: 100px;
+  overflow:auto;
+}
+
+#sect2 p{
+  font-size: 1.3em;
+}
+
+
 #sect2 hr{
   border-width: 3px;
   width: 10%;
@@ -41,6 +51,38 @@ white-space:nowrap;
   border-width: 3px;
   width: 10%;
   background-color: #21343D;
+}
+
+#sect3{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#sect4 img{
+  height: 316px;
+  width: 316px;
+}
+
+#sect4{
+  padding-top: 100px;
+  padding-bottom: 30vh;
+}
+
+footer{
+  background-color: transparent;
+  width: 100%;
+  font-family: 'Major Mono Display', monospace;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h1{
+  padding: 0px;
+  margin: 0px;
+}
+
+footer img{
+  width: 39px;
 }
 
 .fondo-oscuro{
@@ -55,6 +97,7 @@ white-space:nowrap;
   width: 80px;
 }
 
+
 #center-text{
   background-color: transparent;
   position: relative;
@@ -66,9 +109,21 @@ white-space:nowrap;
   text-shadow:  0 0 3px black, 0 0 5px black;
 }
 
-#sect2{
-  margin-top: 50px;
+#contacto-text{
+  background-color: transparent;
+  position: relative;
+  bottom: -20%;
+  overflow: none;
+  width: 100%;
+  font-family: 'Major Mono Display', monospace;
+  color: #21343D;
 }
+
+#sect5{
+  height: 100vh;
+}
+
+
 
 @media (min-width: 576px) {
   #logo{
