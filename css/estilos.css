@@ -8,13 +8,13 @@ nav {
 
 #navdrop *{
   color: white !important;
+white-space:nowrap;
 }
 
 #logo{
-  margin-left: 30vw;
+  margin-left: 0vw;
   width: 33px;
   fill: white;
-  margin-bottom:
 }
 
 #main-photo{
@@ -22,25 +22,33 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 722px;
+  height: 500px;
   background-color: grey;
 }
 
 #main-photo hr{
   border-width: 10px;
-  background-color: white;
+  background-color: #50EEFD;
 }
 
-hr{
-  border-width: 10px;
+#sect2 hr{
+  border-width: 3px;
+  width: 10%;
+}
+
+.fondo-oscuro{
+  background-color: #21343D;
 }
 
 #center-text{
   background-color: transparent;
-  position: absolute;
-  bottom: -120px;
+  position: relative;
+  bottom: -60%;
+  overflow: none;
   width: 100%;
   font-family: 'Major Mono Display', monospace;
+  color: #50EEFD;
+  text-shadow:  0 0 3px black, 0 0 5px black;
 }
 
 #sect2{
@@ -49,7 +57,7 @@ hr{
 
 @media (min-width: 576px) {
   #logo{
-    margin-left: 150px;
+    margin-left: 0px;
   }
 }
 
@@ -69,6 +77,9 @@ hr{
   #logo{
     margin-left: 150px;
   }
+  #main-photo{
+    height: 722px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -78,5 +89,8 @@ hr{
   #navdrop{
     margin-right: 170px;
     font-size: 0.9em;
+  }
+  #main-photo{
+    height: 722px;
   }
 }
